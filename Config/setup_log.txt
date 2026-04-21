@@ -1,0 +1,19 @@
+NEXACORE INDUSTRIES - SAP SPRO CONFIGURATION LOG
+------------------------------------------------
+1. FI Definition: SPRO > Enterprise Structure > Definition > Financial Accounting
+   - Created Company Code NC10 (NexaCore India)
+   - Currency: INR, Language: EN
+
+2. MM Definition: SPRO > Enterprise Structure > Definition > Logistics-General
+   - Created Plant NCP1 (Bhubaneswar)
+   - Created Plant NCP2 (Kolkata)
+
+3. SD Definition: SPRO > Enterprise Structure > Definition > Sales and Distribution
+   - Created Sales Org NCS1
+   - Created Dist. Channel 01 (Wholesale)
+   - Created Division 10 (Electronics)
+
+4. Assignments: SPRO > Enterprise Structure > Assignment
+   - Assigned Plant NCP1 -> Company Code NC10
+   - Assigned Sales Org NCS1 -> Company Code NC10
+   - Configured Sales Area: NCS1 + 01 + 10
